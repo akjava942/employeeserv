@@ -1,5 +1,4 @@
 # employeeserv
-<<<<<<< HEAD
 
 ## Application Overview
 employeeserv is a spring boot rest application which would provide the CRUD operations for `Employee` resource.
@@ -36,6 +35,30 @@ We would like you to enhance the existing project and see you complete the follo
 
 ## Assignment submission
 Thank you very much for your time to take this test. Please upload this complete solution in Github and send us the link to `bfs-sor-interview@paypal.com`.
-=======
-employee serv - a utility project for technical assesment
->>>>>>> branch 'master' of https://github.com/akjava942/employeeserv
+
+## Testing using Swagger
+Please run mvn spring-boot:run from `employeeservImplementation` folder to run the project.
+
+ - Go to brower http://localhost:8080/swagger-ui.html#/
+
+- Click on the 'EmployeeResourceImpl' 
+
+- Click on 'Try it out' button
+
+- Copy the request from eiether of the json file that is located at under src/test/java folder.
+
+- Click on 'Execute' button
+
+- To Repeat Click on the 'Clear' button and provide the details.
+
+- Please refer to the results along with the http codes.
+
+Unit Testing:
+
+	- Goto src/test/java
+
+	- Under the package com.paypal.bfs.employeeserv.functional.test
+
+	- Right click on EmployeeResourceTest.java and Run as --> JUnit Test.
+
+	- Please verify the results.
